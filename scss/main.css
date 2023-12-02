@@ -1,0 +1,404 @@
+/* ---- reset ---- */
+body {
+  margin: 0;
+  font: normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas {
+  display: block;
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #0010fc;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/* ---- stats.js ---- */
+.count-particles {
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #012840;
+  font-size: 0.8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles {
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#stats {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles {
+  border-radius: 0 0 3px 3px;
+}
+
+::-webkit-scrollbar {
+  width: 14px;
+  background-color: #282840;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #FFF;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: #012840;
+}
+
+/* ---- reset ---- */
+canvas {
+  display: block;
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 332%;
+  background-color: rgba(1, 1, 29, 0.8470588235);
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.typed-cursor {
+  background-image: url(https://w7.pngwing.com/pngs/648/131/png-transparent-vertical-bar-character-vertical-miscellaneous-angle-text-thumbnail.png);
+  padding-top: 50px;
+}
+
+.typed-cursor--blink {
+  display: none;
+}
+
+/* ---- stats.js ---- */
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+a {
+  display: inline-block;
+  text-decoration: underline;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font: normal 75% Arial, Helvetica, sans-serif;
+  background-color: aqua;
+}
+
+.site-main {
+  z-index: 10;
+  flex-grow: 1;
+}
+
+.header__img {
+  border-radius: 50px;
+}
+
+.header__img:hover {
+  opacity: 0.9;
+}
+
+.site-header {
+  z-index: 10;
+}
+
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 200px;
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header__link {
+  color: #FFF;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 550;
+  transition: 1s ease color;
+  text-decoration: none;
+}
+
+.header__link:hover {
+  color: #13E8E9;
+  opacity: 0.7;
+}
+
+.header__link:active {
+  color: #FFF;
+}
+
+.animatsion__title {
+  color: #13E8E9;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 80px;
+}
+
+.description {
+  color: #13E8E9;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.sec__desced {
+  color: #FFF;
+}
+
+.GitHub__account {
+  color: #FFF;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.link__GitHub:hover {
+  text-decoration: none;
+}
+
+.Best__photo {
+  border-radius: 50%;
+}
+
+.main__inner {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper::after {
+  z-index: 10;
+  position: absolute;
+  display: block;
+  background-image: url(/images/Bestphoto.jpg);
+  background-repeat: no-repeat;
+  width: 640px;
+  height: 640px;
+  border-radius: 50%;
+  content: "";
+  margin-top: -420px;
+  margin-left: 750px;
+}
+
+.hero {
+  padding-bottom: 800px;
+}
+
+.About__me__desc {
+  color: #FFF;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.About__me__wrapper {
+  width: 500px;
+}
+
+.About__me {
+  padding-bottom: 530px;
+}
+
+.About__me__inner {
+  display: flex;
+  align-items: center;
+}
+
+.About__me__inner::after {
+  display: block;
+  position: absolute;
+  width: 640px;
+  height: 640px;
+  background-image: url(/images/secondphoto.jpg);
+  background-repeat: no-repeat;
+  margin-left: 580px;
+  border-radius: 50px;
+  content: "";
+}
+
+.site-footer {
+  padding: 0;
+  background-color: rgba(180, 176, 176, 0.3803921569);
+  padding-bottom: 82px;
+  padding-top: 20px;
+  z-index: 10;
+}
+
+.footer__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list__footer {
+  display: grid;
+}
+
+.footer__footer__list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.youtube__class {
+  position: absolute;
+  right: 50px;
+  margin-top: -15px;
+}
+
+.button__footer__imgs {
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 1495px) {
+  #particles-js {
+    height: 435%;
+  }
+}
+@media only screen and (max-width: 1490px) {
+  .wrapper::after {
+    width: 450px;
+    height: 450px;
+  }
+  .About__me__inner::after {
+    width: 450px;
+    height: 450px;
+  }
+  #particles-js {
+    height: 435%;
+  }
+}
+@media only screen and (max-width: 1259px) {
+  .wrapper::after {
+    margin: 0 auto;
+  }
+  .wrapper {
+    gap: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 1155px) {
+  .About__me {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .About__me__inner::after {
+    margin-left: 500px;
+  }
+}
+@media only screen and (max-width: 1065px) {
+  .About__me__inner::after {
+    margin: 0;
+    margin-top: 715px;
+  }
+  .wrapper::after {
+    width: 400px;
+    height: 400px;
+  }
+  .About__me__inner::after {
+    width: 400px;
+    height: 400px;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .description {
+    font-size: 20px;
+  }
+  .animatsion__title {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .About__me__inner::after {
+    width: 350px;
+    height: 350px;
+  }
+  .wrapper::after {
+    width: 350px;
+    height: 350px;
+  }
+}
+@media only screen and (max-width: 385px) {
+  .About__me__inner::after {
+    width: 300px;
+    height: 300px;
+  }
+  #particles-js {
+    height: 457%;
+  }
+}/*# sourceMappingURL=main.css.map */
